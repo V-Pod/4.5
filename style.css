@@ -18,7 +18,8 @@
 
 html, body {
     min-width: 1000px;
-    color: #5a5656
+    color: #5a5656;
+    margin-top: 100px;
 }
 
 h2 {
@@ -41,6 +42,24 @@ h4 {
 img {
     float: left;
     padding-left: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 white;
+}
+
+.accordion-button:focus {
+    border-color: white;
+}
+
+.col-11 {
+    padding-right: 0;
+}
+
+.col-1{
+    padding-left: 0;
 }
 
 .newText {
@@ -129,7 +148,7 @@ input {
 .discription {
     width: 390px;
     height: 230px;
-    border: solid 1px #f6f6ft6;
+    border: solid 1px #f6f6f6;
 }
 
 .newDiv {

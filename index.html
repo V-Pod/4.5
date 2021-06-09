@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список дел</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container-lg">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 border bg-light">
+                    <h2>Список дел:</h2>
+                    <p>Список пуст...</p>
+                    <!-- <div class="accordion-item">
+                        <div class="row align-items-center">
+                            <div class="col-11">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Accordion Item #1
+                                </button>
+                              </h2>
+                            </div>
+                            <div class="col-1">
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">
+                <h2>Добавить новое дело</h2>
+                <form>
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Название</label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Описание</label>
+                    </div>
+                </div>    
+                <button type="submit" class="btn btn-primary">Добавить дело</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- <div class="gray">
+    <div class="fixed-container">
+        <div id="left-section" class="left-section">
+            <h2>Список дел:</h2>
+            <p class="empty">Список пуст...</p>
+            <div id="newDiv" class="newDiv">
+            </div>
+        </div>
+        <section class="right-section">
+            <h2>Добавить новое дело</h2>
+            <div class="white-container">
+                <section class="name">
+                    <h3>* Название</h3>
+                    <input id="new-event-name" class="new-event-name" maxlength="28" type="text" name="">
+                </section>
+                <section class="name">
+                    <h3>* Описание</h3>
+                    <textarea id="discription" class="discription" maxlength="55"></textarea>
+                </section>
+                <button id="button" class="new-event" type="button">
+                    Добавить дело
+                </button>
+            </div>
+        </section>
+    </div>
+</div> -->
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

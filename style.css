@@ -54,6 +54,10 @@ img {
     border-color: white;
 }
 
+.accordion-item {
+    margin: 20px;
+}
+
 .col-11 {
     padding-right: 0;
 }

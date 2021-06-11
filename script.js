@@ -67,19 +67,21 @@ $(function () {
       
         let container = document.getElementsByClassName('p-3');
 
-        let itemName = document.getElementById('floatingTextarea').innerHTML;
-        let itemBody = document.getElementById('floatingTextarea2').innerHTML;
+        let itemName = document.getElementById('floatingTextarea').value;
+        let itemBody = document.getElementById('floatingTextarea2').value;
 
 
         if (itemName && itemBody) {
 
             $('textarea').removeClass('error');
             $('p').hide();
-            container.append(newAccordionItem);
+            // container.append(newAccordionItem);
+            $('#placeForFilling').append(newAccordionItem);
             newAccordionItem.append(newRow);
             newAccordionItem.append(newCollapseOne);
             newRow.append(newCol11);
             newRow.append(newCol1);
+            newCol1.append(newCloseButton);
             newCol11.append(newH2);
             newCol11.append(newAccordionButton);
             newCollapseOne.appendChild(newAccordionBody);
